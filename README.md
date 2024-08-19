@@ -21,7 +21,7 @@ This script verifies the validity of Netflix accounts using Selenium WebDriver. 
 1. Clone the repository:
 
 
-   git clone https://github.com/yourusername/netflix-account-checker.git
+   git clone https://github.com/DVD-ctrl/Netflix-Account-Checker
    cd netflix-account-checker
    ```
 
@@ -29,7 +29,7 @@ This script verifies the validity of Netflix accounts using Selenium WebDriver. 
 
    ```bash
    pip install selenium colorama
-   ```
+
 
 3. **Download ChromeDriver** compatible with your version of Google Chrome [here](https://sites.google.com/a/chromium.org/chromedriver/downloads) and place the executable in the same directory as the script.
 
