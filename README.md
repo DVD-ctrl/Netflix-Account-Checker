@@ -1,26 +1,26 @@
 ```markdown
-Netflix Account Checker
+# Netflix Account Checker
 
 This script verifies the validity of Netflix accounts using Selenium WebDriver. It logs in to accounts provided in a file and checks if the login is successful.
 
 🚀 Features
 
-- **Account Verification:** The script logs into Netflix accounts using provided email and password.
-- **Parallel Execution:** Supports multiple threads to perform checks simultaneously.
-- **Valid Account Logging:** Valid accounts are saved to a `valid.txt` file.
+- Account Verification:** The script logs into Netflix accounts using provided email and password.
+- Parallel Execution:** Supports multiple threads to perform checks simultaneously.
+- Valid Account Logging:** Valid accounts are saved to a `valid.txt` file.
 
 📦 Requirements
 
-- **Python 3.x**
-- **Selenium**
-- **Colorama**
-- **ChromeDriver**
+- Python 3.x
+- Selenium
+- Colorama
+- ChromeDriver
 
 🔧 Installation
 
-1. **Clone the repository:**
+1. Clone the repository:
 
-   ```bash
+
    git clone https://github.com/yourusername/netflix-account-checker.git
    cd netflix-account-checker
    ```
@@ -70,4 +70,3 @@ Feel free to contribute to this project. Submit pull requests or open issues if 
 If you have questions or need support, contact me via [Discord](https://discord.gg/bjdY9S96M3) or [GitHub](https://github.com/DVD-ctrl).
 ```
 
-Replace `https://github.com/yourusername/netflix-account-checker.git` and `https://github.com/yourusername` with the appropriate URLs for your repository and GitHub profile. The Discord link is already provided as specified.
