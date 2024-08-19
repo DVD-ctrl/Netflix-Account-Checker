@@ -1,4 +1,4 @@
-```markdown
+
 Netflix Account Checker
 
 This script verifies the validity of Netflix accounts using Selenium WebDriver. It logs in to accounts provided in a file and checks if the login is successful.
