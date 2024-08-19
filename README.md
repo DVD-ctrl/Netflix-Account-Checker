@@ -67,6 +67,6 @@ Feel free to contribute to this project. Submit pull requests or open issues if 
 
 ## 📞 Contact
 
-If you have questions or need support, contact me via [Discord](https://discord.gg/bjdY9S96M3) or [GitHub](https://github.com/DVD-ctrl).
+If you have questions or need support, contact me via [Discord](https://discord.gg/wU9n6N9yRS) or [GitHub](https://github.com/DVD-ctrl).
 
 
