@@ -1,78 +1,73 @@
-Aqui está o README traduzido para o português:
-
 ```markdown
-# Verificador de Contas Netflix
+Netflix Account Checker
 
-Este script verifica a validade de contas da Netflix usando o Selenium WebDriver. Ele faz login em contas fornecidas em um arquivo e verifica se o login é bem-sucedido.
+This script verifies the validity of Netflix accounts using Selenium WebDriver. It logs in to accounts provided in a file and checks if the login is successful.
 
-## 🚀 Funcionalidades
+🚀 Features
 
-- **Verificação de Contas:** O script faz login em contas da Netflix usando o email e a senha fornecidos.
-- **Execução Paralela:** Suporta múltiplas threads para realizar as verificações simultaneamente.
-- **Registro de Contas Válidas:** Contas válidas são salvas em um arquivo `valid.txt`.
+- **Account Verification:** The script logs into Netflix accounts using provided email and password.
+- **Parallel Execution:** Supports multiple threads to perform checks simultaneously.
+- **Valid Account Logging:** Valid accounts are saved to a `valid.txt` file.
 
-## 📦 Requisitos
+📦 Requirements
 
 - **Python 3.x**
 - **Selenium**
 - **Colorama**
 - **ChromeDriver**
 
-## 🔧 Instalação
+🔧 Installation
 
-1. **Clone o repositório:**
+1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/seuusuario/netflix-account-checker.git
+   git clone https://github.com/yourusername/netflix-account-checker.git
    cd netflix-account-checker
    ```
 
-2. **Instale as dependências:**
+2. **Install dependencies:**
 
    ```bash
    pip install selenium colorama
    ```
 
-3. **Baixe o ChromeDriver** compatível com sua versão do Google Chrome [aqui](https://sites.google.com/a/chromium.org/chromedriver/downloads) e coloque o executável na mesma pasta que o script.
+3. **Download ChromeDriver** compatible with your version of Google Chrome [here](https://sites.google.com/a/chromium.org/chromedriver/downloads) and place the executable in the same directory as the script.
 
-## 📋 Uso
+## 📋 Usage
 
-1. **Prepare seu arquivo de contas:** Crie um arquivo chamado `combo.txt` com cada conta no formato `email:senha`.
+1. **Prepare your accounts file:** Create a file named `combo.txt` with each account in the format `email:password`.
 
-2. **Execute o script:**
+2. **Run the script:**
 
    ```bash
    python script.py
    ```
 
-3. **Escolha a velocidade de verificação:** Após iniciar o script, você será solicitado a escolher uma velocidade de verificação. Selecione um valor de 1 a 5, onde 1 é mais lento e 5 é mais rápido.
+3. **Choose the scan speed:** After starting the script, you will be prompted to choose a scan speed. Select a value from 1 to 5, where 1 is slower and 5 is faster.
 
-4. **Acompanhe o progresso:** O script imprimirá no console se as contas são válidas ou inválidas e salvará as contas válidas em `valid.txt`.
+4. **Monitor the progress:** The script will print whether accounts are valid or invalid to the console and save valid accounts to `valid.txt`.
 
-## 🔧 Exemplo de Uso
+## 🔧 Example Usage
 
 ```plaintext
-Escolha a velocidade de verificação (1 a 5): 3
-Tentando login com: exemplo@email.com
-Conta válida: exemplo@email.com
+Choose the scan speed (1 to 5): 3
+Attempting login with: example@email.com
+Valid account: example@email.com
 ```
 
-## ⚠️ Avisos
+## ⚠️ Warnings
 
-- O uso de múltiplas threads pode sobrecarregar o servidor da Netflix. Use com responsabilidade.
-- O script pode ser bloqueado se usado de forma excessiva ou abusiva.
+- Using multiple threads may overload the Netflix server. Use responsibly.
+- The script may be blocked if used excessively or abusively.
 
-## 📝 Contribuições
+## 📝 Contributions
 
-Sinta-se à vontade para contribuir para este projeto. Envie pull requests ou abra issues se encontrar algum bug.
+Feel free to contribute to this project. Submit pull requests or open issues if you find any bugs.
 
-## 📜 Licença
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+## 📞 Contact
 
-## 📞 Contato
-
-Se você tiver dúvidas ou precisar de suporte, entre em contato via [Discord](https://discord.gg/dexterscript) ou [GitHub](https://github.com/seuusuario).
+If you have questions or need support, contact me via [Discord](https://discord.gg/bjdY9S96M3) or [GitHub](https://github.com/DVD-ctrl).
 ```
 
-Substitua `https://github.com/seuusuario/netflix-account-checker.git` e `https://github.com/seuusuario` pelos URLs apropriados para o seu repositório e perfil do GitHub.
+Replace `https://github.com/yourusername/netflix-account-checker.git` and `https://github.com/yourusername` with the appropriate URLs for your repository and GitHub profile. The Discord link is already provided as specified.
