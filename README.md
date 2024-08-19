@@ -5,9 +5,9 @@ This script verifies the validity of Netflix accounts using Selenium WebDriver. 
 
 🚀 Features
 
-- Account Verification:** The script logs into Netflix accounts using provided email and password.
-- Parallel Execution:** Supports multiple threads to perform checks simultaneously.
-- Valid Account Logging:** Valid accounts are saved to a `valid.txt` file.
+- Account Verification: The script logs into Netflix accounts using provided email and password.
+- Parallel Execution: Supports multiple threads to perform checks simultaneously.
+- Valid Account Logging: Valid accounts are saved to a `valid.txt` file.
 
 📦 Requirements
 
@@ -20,7 +20,7 @@ This script verifies the validity of Netflix accounts using Selenium WebDriver. 
 
 1. Clone the repository:
 
-
+   ```
    git clone https://github.com/DVD-ctrl/Netflix-Account-Checker
    cd netflix-account-checker
    ```
